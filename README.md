@@ -1,6 +1,13 @@
 ---
-description: First page
+description: 人生答案的解答在于对问题的消除
 ---
 
-# Hello World
+# No truce with the furies
 
+> 人间观察,上下求索
+>
+> 恐惧为鞭,欲望做轮
+>
+> 前不见通路,后不问归途
+>
+> 知星辰之浩瀚,笑凡世尽痴狂

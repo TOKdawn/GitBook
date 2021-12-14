@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Hello World](README.md)
+* [No truce with the furies](README.md)
 
 ## 🛩 算法
 
