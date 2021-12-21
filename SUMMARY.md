@@ -12,3 +12,4 @@
 
 * [XHR](qian-duan-sheng-jing/xhr.md)
 * [DOM动画的一些优化](qian-duan-sheng-jing/dom-dong-hua-de-yi-xie-you-hua.md)
+* [路由管理](qian-duan-sheng-jing/lu-you-guan-li.md)
