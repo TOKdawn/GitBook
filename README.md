@@ -1,5 +1,5 @@
 ---
-description: 人生答案的解答在于对问题的消除
+description: 一条被恐惧鞭打着的懒狗
 ---
 
 # No truce with the furies
