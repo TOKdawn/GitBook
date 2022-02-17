@@ -66,3 +66,91 @@ var twoSum = function(nums, target) {
 	}
 };
 ```
+
+
+
+[罗马数字转整数](https://leetcode-cn.com/problems/roman-to-integer/)
+
+&#x20;状态姬,虽然没必要,但是我一定要用状态姬,要不然怎么能体现我搞过状态姬..
+
+```
+        var res = 0;
+        var NUM = 0;
+        const start = char => {
+            if (char == 'I') {
+                NUM = 1
+                return notEnd;
+            } else if (char == 'X') {
+                NUM = 10
+                return notEnd;
+            } else if (char == 'C') {
+                NUM = 100
+                return notEnd
+            }
+            if (char == 'V') {
+                res += 5
+                return start
+            }
+            if (char == 'L') {
+                res += 50
+                return start
+            }
+            if (char == 'D') {
+                res += 500
+                return start
+            }
+            if (char == 'M') {
+                res += 1000
+                return start
+            }
+        }
+        const notEnd = char => {
+            if (char == 'V' && NUM == 1) {
+                res += 4
+                return start
+            } else if (char == 'X' && NUM == 1) {
+                res += 9
+                return start
+            } else if (char == 'L' && NUM == 10) {
+                res += 40
+                return start
+            } else if (char == 'C' && NUM == 10) {
+                res += 90
+                return start
+            } else if (char == 'D' && NUM == 100) {
+                res += 400
+                return start
+            } else if (char == 'M' && NUM == 100) {
+                res += 900
+                return start
+            } else {
+                res += NUM
+                return start(char)
+            }
+        }
+        var romanToInt = function (s) {
+            res = 0;
+            var state = start;
+            for (var c of s.split('')) {
+                state = state(c);
+            }
+            state('') //后判定状态姬,再传一个,保证最后一个字符的状态确定
+            return res
+        };
+```
+
+[只出现一次的数字](https://leetcode-cn.com/problems/single-number/)&#x20;
+
+如果我们对 0 和二进制位做 XOR 运算，得到的仍然是这个二进制位 a ^ 0 = a\
+如果我们对相同的二进制位做 XOR 运算，返回的结果是 0 a ^ a = 0\
+XOR 满足交换律和结合律 a^b^a = (a^a)^b = 0^b = b 所以我们只需要将所有的数进行 XOR 操作，得到那个唯一的数字。 麻了,麻了...
+
+```
+var singleNumber = function(nums) {
+    var res = 0;
+    for(var i = 0;i<nums.length;i++){
+        res ^=nums[i]
+    }
+    return res
+};
+```
