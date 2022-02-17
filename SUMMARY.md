@@ -11,6 +11,8 @@
 
 ## 🤖 前端剩经
 
+* [Webpacck Configuration Engineer](qian-duan-sheng-jing/webpacck-configuration-engineer.md)
+* [再谈JavaScript与OOP](qian-duan-sheng-jing/zai-tan-javascript-yu-oop.md)
 * [XHR](qian-duan-sheng-jing/xhr.md)
 * [DOM动画的一些优化](qian-duan-sheng-jing/dom-dong-hua-de-yi-xie-you-hua.md)
 * [路由管理](qian-duan-sheng-jing/lu-you-guan-li.md)
