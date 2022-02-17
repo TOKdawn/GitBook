@@ -12,6 +12,8 @@ description: 一条被恐惧鞭打着的懒狗
 >
 > 知星辰之浩瀚,笑凡世尽痴狂
 
-{% content-ref url="https://app.gitbook.com/s/dywWG4MqsRKz6X80fz8k/" %}
-[Life](https://app.gitbook.com/s/dywWG4MqsRKz6X80fz8k/)
+非技术类博客地址:
+
+{% content-ref url="https://app.gitbook.com/s/sXo9daEVNPVx4B0Aezxb/" %}
+[Answer](https://app.gitbook.com/s/sXo9daEVNPVx4B0Aezxb/)
 {% endcontent-ref %}
