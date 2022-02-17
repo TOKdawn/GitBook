@@ -4,6 +4,7 @@
 
 ## 🛩 算法
 
+* [是数学!](suan-fa/shi-shu-xue.md)
 * [马拉车算法](suan-fa/ma-la-che-suan-fa.md)
 * [种树](suan-fa/zhong-shu.md)
 * [饼插鸡](suan-fa/bing-cha-ji.md)
