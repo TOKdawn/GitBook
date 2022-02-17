@@ -11,6 +11,7 @@
 
 ## 🤖 前端剩经
 
+* [Git](qian-duan-sheng-jing/git.md)
 * [Webpacck Configuration Engineer](qian-duan-sheng-jing/webpacck-configuration-engineer.md)
 * [再谈JavaScript与OOP](qian-duan-sheng-jing/zai-tan-javascript-yu-oop.md)
 * [XHR](qian-duan-sheng-jing/xhr.md)
