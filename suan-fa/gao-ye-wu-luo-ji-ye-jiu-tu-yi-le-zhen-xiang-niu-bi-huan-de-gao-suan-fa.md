@@ -44,3 +44,25 @@ description: >-
 * 先通过函数调用,传递当前节点的左右叶做向下挖掘.
 * 根据上一步函数调用的返回值,配合对应业务逻辑,判定当前节点符不符合结果.
 * 把子节点返回的结果加上自己的结果传做函数的返回值递给上一级 [路径总和 III](https://leetcode-cn.com/problems/path-sum-iii/)
+
+###
+
+[两数之和](https://leetcode-cn.com/problems/two-sum/) ——— 反向索引&#x20;
+
+很简单的问题,一个数组里找相加为特定值的两个元素下标. 常规解法都绕不开两次循环对应两个下标的寻找,而构建反向索引的思路则是在一个循环内同时处理了(第一个元素下标记录)&&(构建一个 数组元素值对应此元素下标 索引关系的数组)两件事,这样就可以避开第二次循环 转而用js自己的索引机制代替
+
+```
+给定一个整数数组 nums和一个目标值 target，请你在该数组中找出和为目标值的那两个整数，并返回他们的数组下标。
+你可以假设每种输入只会对应一个答案。但是，你不能重复利用这个数组中同样的元素。
+var twoSum = function(nums, target) {
+	let Arrlength = nums.length;
+	let elementToIndex = []
+	for(var i = 0;i < Arrlength; i++){
+		var diff = target - nums[i]
+		if(elementToIndex[diff] != undefined){
+			return [i,elementToIndex[diff]]
+		} 
+		elementToIndex[nums[i]] = i 
+	}
+};
+```
