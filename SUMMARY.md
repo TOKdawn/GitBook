@@ -27,4 +27,4 @@
 * [Diff算法](qian-duan-kuang-jia/diff-suan-fa.md)
 * [虚拟dom](qian-duan-kuang-jia/xu-ni-dom.md)
 * [JSX与自定义组件](qian-duan-kuang-jia/jsx-yu-zi-ding-yi-zu-jian.md)
-* [前后端分离](qian-duan-kuang-jia/qian-hou-duan-fen-li.md)
+* [Vue设计与实现](qian-duan-kuang-jia/vue-she-ji-yu-shi-xian.md)
