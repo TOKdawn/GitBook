@@ -1,5 +1,5 @@
 ---
-description: 得JS者得天下
+description: 重新JS一年一年 说过多少次了 改过不拉 改不了 没那个能力你知道吧
 ---
 
 # JS基础
