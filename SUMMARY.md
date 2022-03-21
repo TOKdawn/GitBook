@@ -32,4 +32,5 @@
 
 ## ⛵ 面与面经
 
+* [前端扫盲2022](mian-yu-mian-jing/qian-duan-sao-mang-2022.md)
 * [JS基础](mian-yu-mian-jing/js-ji-chu.md)
