@@ -15,6 +15,7 @@
 
 * [浏览器渲染机制](qian-duan-sheng-jing/liu-lan-qi-xuan-ran-ji-zhi.md)
 * [TS 速记](qian-duan-sheng-jing/ts-su-ji.md)
+* [构建工具与更多](qian-duan-sheng-jing/gou-jian-gong-ju-yu-geng-duo.md)
 * [Git](qian-duan-sheng-jing/git.md)
 * [Webpacck Configuration Engineer](qian-duan-sheng-jing/webpacck-configuration-engineer.md)
 * [再谈JavaScript与OOP](qian-duan-sheng-jing/zai-tan-javascript-yu-oop.md)
