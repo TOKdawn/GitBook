@@ -116,3 +116,18 @@
     ```
 
     实现签名必须和重载签名兼容,并且涵盖所有重载签名的类型&#x20;
+
+
+
+#### 几种特殊类型:
+
+* void 不会返回任何值,隐式返回undefined
+* Object 任何非原始类型(string,number,bigint,boolean,symbol,null,undefined)的都是object
+* unknown 可以表示任何值,类似any,但是更安全,对其任何操作都合法
+* never 函数不返回任何值
+* Function 函数
+* parameters 形参 arguments 实参
+
+#### 对象类型
+
+* 索引签名
