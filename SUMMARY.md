@@ -31,6 +31,10 @@
 * [JSX与自定义组件](qian-duan-kuang-jia/jsx-yu-zi-ding-yi-zu-jian.md)
 * [Vue设计与实现](qian-duan-kuang-jia/vue-she-ji-yu-shi-xian.md)
 
+## 🏰 搞事的心 <a href="#搞事的心就是你的魔法" id="搞事的心就是你的魔法"></a>
+
+* [机核网页端机组插件](搞事的心就是你的魔法/ji-he-wang-ye-duan-ji-zu-cha-jian.md)
+
 ## ⛵ 面与面经
 
 * [前端扫盲2022](mian-yu-mian-jing/qian-duan-sao-mang-2022.md)
