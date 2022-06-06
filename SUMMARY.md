@@ -35,6 +35,7 @@
 
 * [css variable 解析](搞事的心就是你的魔法/css-variable-jie-xi.md)
 * [机核网页端机组插件](搞事的心就是你的魔法/ji-he-wang-ye-duan-ji-zu-cha-jian.md)
+* [css variable 解析2.0](搞事的心就是你的魔法/css-variable-jie-xi-2.0.md)
 
 ## ⛵ 面与面经
 
