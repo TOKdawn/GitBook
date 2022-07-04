@@ -4,6 +4,7 @@
 
 ## 🛩 算法
 
+* [记忆化搜索DP - 因子二叉树](suan-fa/ji-yi-hua-sou-suo-dp-yin-zi-er-cha-shu.md)
 * [是数学!](suan-fa/shi-shu-xue.md)
 * [马拉车算法](suan-fa/ma-la-che-suan-fa.md)
 * [种树](suan-fa/zhong-shu.md)
