@@ -2,7 +2,7 @@
 
 * [No truce with the furies](README.md)
 
-## 🛩 算法
+## 🛩️ 算法
 
 * [区间和与线段树](suan-fa/qu-jian-he-yu-xian-duan-shu.md)
 * [记忆化搜索DP - 因子二叉树](suan-fa/ji-yi-hua-sou-suo-dp-yin-zi-er-cha-shu.md)
